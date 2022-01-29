@@ -1,0 +1,57 @@
+######################################################
+## The input file follows this syntax :             ## 
+## parameter_name <space> = <space> value <space> ; ##
+## You can add comments using `##`                  ##
+##                                                  ##
+## This input file is strictly for                  ##
+## the Kobayashi Isotropic Simulation               ##
+######################################################
+##
+## Platform ID & Device ID
+platformID = 0 ;
+deviceID = 0 ;
+## Work group size
+## If set to 0, the program will use the preferred
+## work group size according to your system.
+WGsize = 0 ;
+##
+## The simulation grid is a square.
+## Size and iteration parameters
+SIZE = 512 ;
+## dx = dy
+DX = 0.03 ;
+## Iterations
+ITERS = 1024 ;
+## delta t
+DT = 1.0e-4 ;
+## No. of iterations to save
+NSave = 1 ;
+## Output datafile type: 0 is .csv and 1 is .vtk
+OutDataFileType = 0 ;
+##
+## Model constants
+EPS_BAR = 0.00911 ;
+ALPHA =  0.99 ;
+GAMMA = 10 ;
+TAU = 3.0e-4 ;
+## Noise in phase growth
+NOISE_AMP = 0.1 ;
+## Phase boundaries
+## Liquid is 1.0
+## Solid  is 0.0
+PHASE_BOUND_LEFT = 1.0 ;
+PHASE_BOUND_RIGHT = 1.0 ;
+PHASE_BOUND_TOP = 1.0 ; 
+PHASE_BOUND_BOTTOM = 0 ; 
+## Thermal properties
+THERMAL_DIFFUSIVITY = 0.89 ;
+LATENT_HEAT_SLD = 1.2 ;
+## Temperature boundary 
+## and initial conditions
+TEMP_INIT = 0.0 ;
+TEMP_MELT = 1.0 ;
+TEMP_BOUND_LEFT = 0 ;
+TEMP_BOUND_RIGHT = 0 ;
+TEMP_BOUND_TOP = 0 ;
+TEMP_BOUND_BOTTOM = -5.0 ;
+## END OF FILE

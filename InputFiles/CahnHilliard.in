@@ -1,0 +1,38 @@
+######################################################
+## The input file follows this syntax :             ## 
+## parameter_name <space> = <space> value <space> ; ##
+## You can add comments using `##`                  ##
+##                                                  ##
+## This input file is strictly for                  ##
+## the Cahn-Hilliard equation Simulation            ##
+######################################################
+##
+## Platform ID & Device ID
+platformID = 0 ;
+deviceID = 0 ;
+## Work group size
+## If set to 0, the program will use the preferred
+## work group size according to your system.
+WGsize = 0 ;
+##
+## The simulation grid is a square.
+## Size and iteration parameters
+SIZE = 512 ;
+## dx = dy
+DX = 0.03 ;
+## Iterations
+ITERS = 4096 ;
+## delta t
+DT = 1.0e-4 ;
+## No. of iterations to save
+NSave = 1 ;
+## Output datafile type: 0 is .csv and 1 is .vtk
+OutDataFileType = 0 ;
+##
+## Model constants
+MEAN_CONCENTRATION = 0.5 ;
+NOISE_AMP = 0.4 ;
+KAPPA = 0.267 ;
+MOBILITY = 0.52 ;
+##
+## END OF FILE
