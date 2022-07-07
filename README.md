@@ -89,7 +89,6 @@ The compiler flags, `CFLAGS` variale is only to be changed if you are using a co
 The running directory, `RUN_DIR` variable holds the name/path of the directory where the program is being compiled or is being run. The default value is `.` which is the current directory.
 
 ***
-
 ## What the configure.sh file does?
 The configure file checks your host system for the following things:
 1. **clinfo** : clinfo is an OpenCL package(?) that extracts the the OpenCL SDK information on your computer. For more information type `man clinfo`. If its not installed, you should install it using the command `sudo apt-get install clinfo`. If that does not work, please look up online
