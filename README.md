@@ -1,3 +1,5 @@
+![Image](/OutDataFiles/output_20.png)
+
 Welcome to the README.md file. It provides information on how to compile, run, use and maintain the program.
 
 ## How to run a simulation?
