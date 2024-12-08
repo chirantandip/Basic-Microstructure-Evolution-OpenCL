@@ -1,3 +1,6 @@
+
+A full playlist of simulations can be found [here](https://youtube.com/playlist?list=PL1cqUV86N25uDkdB8FqOG7VP6XSm7VdjS&si=HIdTDLQTjSmIc5gI).
+
 ![Image](/OutDataFiles/output_20.png)
 
 Welcome to the README.md file. It provides information on how to compile, run, use and maintain the program.
